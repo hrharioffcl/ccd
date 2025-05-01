@@ -72,8 +72,3 @@ border-bottom:2px solid #dc4348;
 .social{
     text-align: center;
 }
-@media(max-width:800px){
- .cake{
-  display:none;
- }
-}
