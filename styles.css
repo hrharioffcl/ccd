@@ -72,13 +72,3 @@ border-bottom:2px solid #dc4348;
 .social{
     text-align: center;
 }
-
-import { purgeCSSPlugin } from '@fullhuman/postcss-purgecss';
-
-module.exports = {
-  plugins: [
-    purgecss({
-      content: ['./**/*.html']
-    })
-  ]
-}
